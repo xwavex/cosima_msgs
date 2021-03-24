@@ -1,0 +1,4 @@
+geometry_msgs/Pose i_pose
+float64 i_max_trans_sec
+float64 i_max_rot_sec
+---

@@ -1,0 +1,10 @@
+geometry_msgs/Vector3 kp_trans
+geometry_msgs/Vector3 kp_rot
+geometry_msgs/Vector3 kd_trans
+geometry_msgs/Vector3 kd_rot
+geometry_msgs/Vector3 fdir_trans
+geometry_msgs/Vector3 fdir_rot
+geometry_msgs/Vector3 force_trans
+geometry_msgs/Vector3 force_rot
+float64 time
+---

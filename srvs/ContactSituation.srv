@@ -7,4 +7,5 @@ geometry_msgs/Vector3 fdir_rot
 geometry_msgs/Vector3 force_trans
 geometry_msgs/Vector3 force_rot
 float64 time
+bool update_pose_first
 ---

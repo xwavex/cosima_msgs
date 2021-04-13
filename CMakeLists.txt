@@ -4,7 +4,7 @@ project(cosima_msgs)
 
 find_package(catkin REQUIRED genmsg geometry_msgs std_msgs)
 
-add_message_files(DIRECTORY msgs FILES CallTraceSample.msg)
+add_message_files(DIRECTORY msgs FILES CallTraceSample.msg CallTraceSampleCollection.msg)
 
 add_service_files(DIRECTORY srvs FILES Assemble.srv GetClamp.srv Move.srv ContactSituation.srv ContactForce.srv)
 generate_messages(DEPENDENCIES geometry_msgs std_msgs)
@@ -12,6 +12,6 @@ generate_messages(DEPENDENCIES geometry_msgs std_msgs)
 catkin_package(CATKIN_DEPENDS message_runtime geometry_msgs std_msgs)
 
 install(FILES
-  srvs/Assemble.srv srvs/GetClamp.srv srvs/Move.srv srvs/ContactSituation.srv srvs/ContactForce.srv msgs/CallTraceSample.msg
+  srvs/Assemble.srv srvs/GetClamp.srv srvs/Move.srv srvs/ContactSituation.srv srvs/ContactForce.srv msgs/CallTraceSample.msg msgs/CallTraceSampleCollection.msg
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
